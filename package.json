@@ -5,7 +5,6 @@
   "author": "William Thorne",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
@@ -23,12 +22,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
-    "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
-    "enzyme-to-json": "^3.3.4",
     "express": "^4.16.3",
-    "jest": "^23.6.0",
-    "live-server": "^1.2.0",
     "moment": "^2.22.2",
     "node-sass": "^4.9.3",
     "normalize.css": "^8.0.0",
@@ -40,17 +34,21 @@
     "react-modal": "^3.5.1",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "react-test-renderer": "^16.5.2",
     "redux": "^4.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "uuid": "^3.3.2",
     "validator": "^10.7.1",
-    "webpack": "^4.17.1",
-    "webpack-dev-server": "^3.1.7"
+    "webpack": "^4.17.1"
   },
   "devDependencies": {
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-to-json": "^3.3.4",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.5.2",
+    "webpack-dev-server": "^3.1.7"
   }
 }
